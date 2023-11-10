@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 10.451 s <<< FAILURE! - in TestSuite
+com.crowdar.bdd.cukes.TestNGSecuencialRunner.runScenario  Time elapsed: 3.4 s  <<< FAILURE!
+java.lang.AssertionError: The status code are not equals, expected [200] and found [401]
+
+com.crowdar.bdd.cukes.TestNGSecuencialRunner.runScenario  Time elapsed: 1.561 s  <<< FAILURE!
+java.lang.AssertionError: The status code are not equals, expected [201] and found [401]
+
+com.crowdar.bdd.cukes.TestNGSecuencialRunner.runScenario  Time elapsed: 0.988 s  <<< FAILURE!
+java.lang.AssertionError: The status code are not equals, expected [200] and found [401]
+
+com.crowdar.bdd.cukes.TestNGSecuencialRunner.runScenario  Time elapsed: 2.514 s  <<< FAILURE!
+com.jayway.jsonpath.PathNotFoundException: No results for path: $[0]['id']
+
+com.crowdar.bdd.cukes.TestNGSecuencialRunner.runScenario  Time elapsed: 1.524 s  <<< FAILURE!
+com.jayway.jsonpath.PathNotFoundException: No results for path: $[0]['id']
+
