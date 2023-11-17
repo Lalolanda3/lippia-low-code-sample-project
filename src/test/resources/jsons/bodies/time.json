@@ -1,0 +1,15 @@
+{
+  "billable": true,
+  "customFields": [
+    {
+      "customFieldId": "cvbnb",
+      "sourceType": "WORKSPACE",
+      "value": {}
+    }
+  ],
+  "description": "bvnvbnt",
+  "end": "2023-11-11T14:20:22Z",
+  "id": "6542edf683c409357078826b",
+  "projectId": "65566ebda3ad160b3f515176",
+  "start": "2023-11-11T10:15:22Z"
+}

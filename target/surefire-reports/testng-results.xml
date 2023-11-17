@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="0" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-10T02:42:29Z" name="BDD Test Suite" finished-at="2023-11-10T02:42:39Z" duration-ms="10218">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crowdar.bdd.cukes.TestNGSecuencialRunner@27ce24aa]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-11-10T02:42:29Z" name="Login and Update Profile Test" finished-at="2023-11-10T02:42:39Z" duration-ms="10218">
+      <class name="com.crowdar.bdd.cukes.TestNGSecuencialRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.crowdar.bdd.cukes.TestNGSecuencialRunner@27ce24aa]" started-at="2023-11-10T02:42:29Z" name="setUpClass" finished-at="2023-11-10T02:42:29Z" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crowdar.bdd.cukes.TestNGSecuencialRunner@27ce24aa]" started-at="2023-11-10T02:42:29Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-10T02:42:32Z" duration-ms="3396" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Obtener los workspace"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["clockify"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The status code are not equals, expected [200] and found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The status code are not equals, expected [200] and found [401]
+at org.testng.Assert.fail(Assert.java:96)
+at io.lippia.api.lowcode.Engine.validates(Engine.java:97)
+at io.lippia.api.lowcode.steps.StepsInCommon.status(StepsInCommon.java:96)
+at ✽.the status code should be 200(file:src/test/resources/features/Clockifyn't401.feature:14)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crowdar.bdd.cukes.TestNGSecuencialRunner@27ce24aa]" started-at="2023-11-10T02:42:32Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-10T02:42:34Z" duration-ms="1562" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Crear un nuevo proyecto"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["clockify"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The status code are not equals, expected [201] and found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The status code are not equals, expected [201] and found [401]
+at org.testng.Assert.fail(Assert.java:96)
+at io.lippia.api.lowcode.Engine.validates(Engine.java:97)
+at io.lippia.api.lowcode.steps.StepsInCommon.status(StepsInCommon.java:96)
+at ✽.the status code should be 201(file:src/test/resources/features/Clockifyn't401.feature:25)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crowdar.bdd.cukes.TestNGSecuencialRunner@27ce24aa]" started-at="2023-11-10T02:42:34Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-10T02:42:35Z" duration-ms="986" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Obtener todos los proyectos de un Workspace"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["clockify"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The status code are not equals, expected [200] and found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The status code are not equals, expected [200] and found [401]
+at org.testng.Assert.fail(Assert.java:96)
+at io.lippia.api.lowcode.Engine.validates(Engine.java:97)
+at io.lippia.api.lowcode.steps.StepsInCommon.status(StepsInCommon.java:96)
+at ✽.the status code should be 200(file:src/test/resources/features/Clockifyn't401.feature:33)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crowdar.bdd.cukes.TestNGSecuencialRunner@27ce24aa]" started-at="2023-11-10T02:42:35Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-10T02:42:37Z" duration-ms="2514" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Encontrar un proyecto por su ID en un Workspace determinado"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["clockify"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.jayway.jsonpath.PathNotFoundException">
+            <message>
+              <![CDATA[No results for path: $[0]['id']]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.jayway.jsonpath.PathNotFoundException: No results for path: $[0]['id']
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.jayway.jsonpath.PathNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crowdar.bdd.cukes.TestNGSecuencialRunner@27ce24aa]" started-at="2023-11-10T02:42:37Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-10T02:42:39Z" duration-ms="1524" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Cambiar el estado de membership de un proyecto"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["clockify"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.jayway.jsonpath.PathNotFoundException">
+            <message>
+              <![CDATA[No results for path: $[0]['id']]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.jayway.jsonpath.PathNotFoundException: No results for path: $[0]['id']
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.jayway.jsonpath.PathNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.crowdar.bdd.cukes.TestNGSecuencialRunner@27ce24aa]" started-at="2023-11-10T02:42:39Z" name="tearDownClass" finished-at="2023-11-10T02:42:39Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.crowdar.bdd.cukes.TestNGSecuencialRunner -->
+    </test> <!-- Login and Update Profile Test -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>
